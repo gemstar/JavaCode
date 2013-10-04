@@ -1,0 +1,30 @@
+package demos;
+
+import java.util.Scanner;
+
+public class Program_03_05 
+{
+	public static void main(String[] args) 
+	{
+			int number;//expecting an integer to be returned
+			Scanner kb = new Scanner(System.in);//allows the keyboard function
+			
+			System.out.println("Enter a number and I will display");
+			System.out.println("that number doubled");
+			
+			number = kb.nextInt();
+			
+			doubleNumber(number);//passing in the value "number" _  argument "when we call it"
+	}//main
+	
+	public static void doubleNumber(int value)//parameters "when it's called" _ the argument "number" is magically redefined as "value" in the double number procedure
+	{
+			int result;
+			
+			result = value *2;// the int value is doubled
+			
+			System.out.println(result);//result is a local variable defined in the procedure doubleNumber and only exists here
+	
+	}
+	
+}//class
