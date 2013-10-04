@@ -1,0 +1,43 @@
+//--------------------------------------------------------------
+//-- Name:       Edward Yang
+//-- Class:      CIS-1400 Fall 2013
+//-- Assignment: Chapter 2
+//-- File:       Chapter02.java
+//-- Purpose:    Demonstration Print Account Balance
+//-------------------------------------------------------------
+
+package demos;
+
+public class Program_02_06 
+{
+	//Main is a procedure required on all programs
+	public static void main(String[] args)
+	{
+			/* Day 2 introduction to variables*/ 
+			double dollars; //checking account balance AKA declaring a variable named dollars
+			dollars = 2.75; // set balance to 2.75 AKA initializing the variable dollars
+			
+				//print out first account balance message
+				System.out.print("I have ");
+				System.out.print(dollars);
+				System.out.println(" in my account");
+			
+			dollars = 99.95; // set balance to 99.95
+			
+				//print out second account balance message
+				System.out.print("Now I have " + dollars + " In my account");
+		
+/* 
+ --more declarations--
+ 
+ byte nextInStream;
+ short hour;
+ long totalNumberOfStars;
+ float reactionTime;
+ double itemPrice;
+ 
+ */
+		
+		
+	}
+}
