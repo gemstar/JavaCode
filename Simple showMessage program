@@ -1,0 +1,30 @@
+//--------------------------------------------------------------
+//-- Name:       Edward Yang
+//-- Class:      CIS-1400 Fall 2013
+//-- Assignment: Chapter 3
+//-- File:       Chapter 03.java
+//-- Purpose:    
+//-------------------------------------------------------------
+
+package demos;
+
+public class Program_03_01 
+{
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("I have a message for you");
+		
+		showMessage(); //calling the custom showMessage procedure and runs it
+		
+		System.out.println("That's all folks.");
+		
+	} //main() is the calling procedure 
+	
+	
+	
+	public static void showMessage()
+	{
+		System.out.println("Hello world");
+	}
+} //class
