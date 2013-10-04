@@ -1,0 +1,82 @@
+package demos;
+
+public class Program_03_02b 
+{
+		public static void main(String[] args)//this main contains all the procedures we're calling
+		{
+			startingMessage();
+			step1();
+			step2();
+			step3();
+			step4();
+			
+			
+		}//main
+		
+	
+		
+		
+			public static void startingMessage()
+			{
+				pauseMessage(0);
+				//System.out.println("press <RETURN> to proceed to steps");//User Presses Enter to continue
+				//global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("The program tells you how to.");
+				System.out.println("dissaassemble an ACME clothes dryer.");
+				System.out.println("There are 5 steps in the process.");
+				//System.out.println("");
+			}// startingMessage()
+			
+			public static void step1()
+			
+			{//creating a procedure called step1()
+				pauseMessage(1);
+				//System.out.println("press <RETURN> to proceed to step 1");//User Presses Enter to continue
+				//global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("1) Unplug the dryer and");
+				System.out.println("move it away from the wall.");
+			}// step1()
+			
+			public static void step2()
+			
+			{//creating a procedure called step2()
+				pauseMessage(2);
+				//System.out.println("press <RETURN> to proceed to step 2");//User Presses Enter to continue
+				//global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("2) Remove the six screws");
+				System.out.println("from the back of the dryer.");
+			}// step2()
+			
+			public static void step3()
+		
+			
+			{//creating a procedure called step3()
+				pauseMessage(3);
+				//System.out.println("press <RETURN> to proceed to step3");//User Presses Enter to continue
+				//global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("3) Remove the dryer's back panel");
+				System.out.println("Good Job.");
+			}// step3()
+			
+			public static void step4()
+		
+			
+			{//creating a procedure called step4()
+				pauseMessage(4);
+				//System.out.println("press <RETURN> to proceed to step 4");//User Presses Enter to continue
+				//global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("4) Pull the top of the");
+				System.out.println("dryer straight up.");
+			}// step4()
+			
+			public static void pauseMessage(int stepNumber)	//allowing pauseMessage to accept parameters"a type of variable that goes in the paranthensis"
+		
+			{
+				
+				System.out.println("press <RETURN> to proceed with steps");//User Presses Enter to continue
+				global.CodUtil.waitForEnter(); //Kevin Fass Utility that allows for User to press Enter
+				System.out.println("***STEP # " + stepNumber + " ***");//prints out the step user's currently on
+		
+			}//pauseMessage
+	
+}//class
